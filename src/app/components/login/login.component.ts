@@ -4,7 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { ServicoService } from '../../services/servico.service';
 @Component({
   selector: 'app-login',
-  standalone: false,
+  standalone: true,
+ imports: [FormsModule
+  ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
