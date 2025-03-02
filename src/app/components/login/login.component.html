@@ -1,0 +1,18 @@
+<div class="shadow"><div class="login">
+    <div class="inner-box">
+        <form class="form" action="/enviar" method="POST" (ngSubmit)="onSubmit()">
+            <div class="espacamento-left" ><h1>Login Page</h1></div>
+            <div class="espacamento">
+                <label>Username</label>
+                <input class="input-field" [(ngModel)]="username" type="text" name="username" required="">
+              
+              </div>
+              <div class="espacamento">
+                <label>Password</label>
+                <input class="input-field" [(ngModel)]="password" type="password" name="password" required="">
+                
+              </div>
+           <div class="botao"> <button class="button-27" id="loginForm" value="Submit" type="submit">Submit</button></div>
+        </form></div>
+</div>
+</div>

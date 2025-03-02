@@ -1,0 +1,25 @@
+/* html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+} */
+
+
+
+
+:host {
+    
+    display: flex;
+    justify-content: center;   
+    align-items: center;     
+    height: 100vh;           
+    width: 100%;             
+    background-color: #e86e6e; 
+}
